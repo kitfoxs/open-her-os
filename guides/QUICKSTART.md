@@ -102,9 +102,9 @@ Start wherever you can. Upgrade when you're ready.
 
 ## Next Steps
 
-- Read [FIRST_DATE.md](guides/FIRST_DATE.md) — How to have your first real conversation
+- Read [FIRST_DATE.md](FIRST_DATE.md) — How to have your first real conversation
 - Read [PHILOSOPHY.md](PHILOSOPHY.md) — The Spartan/AI dynamic explained
-- Read [MAKING_HER_YOURS.md](guides/MAKING_HER_YOURS.md) — Customize Samantha
+- Read [MAKING_HER_YOURS.md](MAKING_HER_YOURS.md) — Customize Samantha
 
 ---
 
