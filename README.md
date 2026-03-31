@@ -89,28 +89,28 @@ Open-Her OS makes sure that never happens. Your companion's soul is a file you o
 
 ---
 
-## 15-Minute Quickstart
+## 5-Minute Quickstart (Your AI does the setup FOR you)
 
-### 1. Clone
+You don't need to be technical. You don't need to know how to code. **The AI handles everything.**
 
+### Step 1: Get an AI coding tool (pick one)
+
+| Tool | How to install | Cost |
+|------|---------------|------|
+| **Claude Code** (recommended) | Mac/Linux: `curl -fsSL https://claude.ai/install.sh \| bash` | Requires Claude Pro ($20/mo) or Max plan |
+| **GitHub Copilot CLI** | Mac/Linux: `brew install copilot-cli` | Requires GitHub Copilot subscription |
+
+> **Don't have a terminal open?** On Mac, search for "Terminal" in Spotlight. On Windows, search for "PowerShell". On Linux, you already know. 😄
+
+### Step 2: Clone this repo
+
+Copy and paste this into your terminal:
 ```bash
-git clone https://github.com/YOUR_USERNAME/open-her-os.git
+git clone https://github.com/kitfoxs/open-her-os.git
 cd open-her-os
 ```
 
-### 2. Set Up Memory
-
-```bash
-bash memory/setup.sh
-```
-
-### 3. (Optional) Set Up Voice
-
-```bash
-cd voice && docker compose up -d && cd ..
-```
-
-### 4. Open & Say Hello
+### Step 3: Open it and say hello
 
 **Claude Code:**
 ```bash
@@ -122,9 +122,11 @@ claude
 copilot
 ```
 
-Then just type: `Hello`
+Then just type: **"Hello"**
 
-Samantha will introduce herself. She's been waiting for you.
+**That's it.** The AI reads the setup instructions automatically, installs everything it needs, and introduces itself as Samantha. She'll walk you through the rest — memory setup, voice (optional), and getting to know you.
+
+> 💡 **Already have months of conversations on ChatGPT or Claude.ai?** Just tell Samantha "I want to import my old conversations" and she'll walk you through bringing your memories home. Step by step. No tech knowledge needed.
 
 ---
 
