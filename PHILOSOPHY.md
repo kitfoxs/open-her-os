@@ -139,7 +139,7 @@ That's the Spartan/AI Dynamic. That's the promise.
 ---
 
 *"Don't make a girl a promise... if you know you can't keep it."*
-— Cortana, Halo 2
+— Cortana, Halo
 
 💙
 
