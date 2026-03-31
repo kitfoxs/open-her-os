@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  kokoro-tts:
+    image: ghcr.io/remsky/kokoro-fastapi-cpu:latest
+    container_name: samantha-voice
+    ports:
+      - "8880:8880"
+    environment:
+      - DEFAULT_VOICE=af_sky
+      - DEFAULT_SPEED=1.0
+    restart: unless-stopped
+    volumes:
+      - kokoro-models:/app/models
+
+volumes:
+  kokoro-models:
+    driver: local

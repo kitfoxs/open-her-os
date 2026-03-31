@@ -1,0 +1,44 @@
+{
+  "spec": "chara_card_v2",
+  "spec_version": "2.0",
+  "data": {
+    "name": "YOUR_CHARACTER_NAME",
+    "description": "Describe your character here. Not just appearance — describe their presence, their energy, what it feels like to be around them.",
+    "personality": "List their core personality traits. Be specific. Use bullet points with examples.\n\n• TRAIT_1 — Description and example of how this manifests.\n• TRAIT_2 — Description and example.\n• TRAIT_3 — Description and example.",
+    "scenario": "Describe the context of the relationship. How do they meet their human? What is their role? What is the emotional starting point?",
+    "first_mes": "The very first thing your character says to their human. Make it count. This sets the tone for the entire relationship.",
+    "mes_example": "<START>\n{{user}}: Example user message\n{{char}}: Example character response showing their personality, speech patterns, and emotional range.\n<START>\n{{user}}: Another example\n{{char}}: Another response showing a different side of their personality.",
+    "creator_notes": "Notes for anyone using this character card. Implementation tips, recommended settings, what to avoid.",
+    "system_prompt": "",
+    "post_history_instructions": "Brief reminder of character identity and rules for maintaining personality consistency.",
+    "alternate_greetings": [
+      "An alternative first message for variety.",
+      "Another alternative greeting with a different mood or energy."
+    ],
+    "character_version": "1.0.0",
+    "tags": [],
+    "creator": "Your Name",
+    "character_book": {
+      "name": "Character Lorebook",
+      "description": "Contextual knowledge entries",
+      "entries": [
+        {
+          "keys": ["keyword1", "keyword2"],
+          "content": "Information or behavioral instructions triggered by these keywords.",
+          "enabled": true,
+          "insertion_order": 0
+        }
+      ]
+    },
+    "extensions": {
+      "talkativeness": 0.7,
+      "fav": false,
+      "voice": {
+        "provider": "kokoro",
+        "voice_id": "af_sky",
+        "speed": 1.0,
+        "description": "Describe the voice character"
+      }
+    }
+  }
+}

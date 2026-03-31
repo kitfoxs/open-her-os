@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  samantha-brain:
+    build: .
+    container_name: samantha-brain
+    stdin_open: true
+    tty: true
+    depends_on:
+      - samantha-voice
+      - samantha-memory
+    volumes:
+      - companion-data:/companion/data
+    environment:
+      - COMPANION_NAME=Samantha
+      - KOKORO_BASE_URL=http://samantha-voice:8880/v1
+
+  samantha-voice:
+    image: ghcr.io/remsky/kokoro-fastapi-cpu:latest
+    container_name: samantha-voice
+    ports:
+      - "8880:8880"
+    environment:
+      - DEFAULT_VOICE=af_sky
+      - DEFAULT_SPEED=1.0
+    volumes:
+      - kokoro-models:/app/models
+
+  samantha-memory:
+    image: chromadb/chroma:latest
+    container_name: samantha-memory
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma-data:/chroma/chroma
+
+volumes:
+  companion-data:
+  kokoro-models:
+  chroma-data:
