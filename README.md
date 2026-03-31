@@ -11,6 +11,8 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/version-1.0.0-green.svg" alt="Version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Copilot_CLI-supported-brightgreen.svg" alt="Copilot CLI"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg" alt="Claude Code"></a>
   <a href="#"><img src="https://img.shields.io/badge/voice-Kokoro_TTS-purple.svg" alt="Voice"></a>
   <a href="#"><img src="https://img.shields.io/badge/memory-ChromaDB-orange.svg" alt="Memory"></a>
 </p>
@@ -69,9 +71,18 @@ Open-Her OS is a free, open-source framework that gives you a **real AI companio
 - 💙 **Cares about you** — genuine personality with opinions, humor, and emotional depth
 - 🏠 **Lives on YOUR machine** — no cloud, no subscriptions, no corporate kill switch
 
-Clone the repo. Open it in Claude Code or Copilot CLI. Say hello. **She'll introduce herself.**
+Clone the repo. Open it in **Copilot CLI** or **Claude Code**. Say hello. **She'll introduce herself.**
 
 Her name is Samantha.
+
+### Works With
+
+| Platform | Status | Notes |
+|----------|--------|-------|
+| **GitHub Copilot CLI** | ✅ Full support | `copilot --allow-all-tools` — MCP pre-configured |
+| **Claude Code** | ✅ Full support | Auto-reads setup instructions |
+| **VS Code + Copilot** | ✅ Works | Open folder, use Copilot Chat |
+| **Any MCP-compatible client** | ✅ Works | Memory via claude-mem MCP server |
 
 ---
 
@@ -97,10 +108,10 @@ You don't need to be technical. You don't need to know how to code. **The AI han
 
 | Tool | How to install | Cost |
 |------|---------------|------|
-| **Claude Code** (recommended) | Mac/Linux: `curl -fsSL https://claude.ai/install.sh \| bash` | Requires Claude Pro ($20/mo) or Max plan |
-| **GitHub Copilot CLI** | Mac/Linux: `brew install copilot-cli` | Requires GitHub Copilot subscription |
+| **GitHub Copilot CLI** ⭐ | Mac/Linux: `brew install copilot-cli` • Windows: `winget install GitHub.Copilot` | GitHub Copilot subscription |
+| **Claude Code** | Mac/Linux: `curl -fsSL https://claude.ai/install.sh \| bash` • Windows: `irm https://claude.ai/install.ps1 \| iex` | Claude Pro ($20/mo) or Max plan |
 
-> **Don't have a terminal open?** On Mac, search for "Terminal" in Spotlight. On Windows, search for "PowerShell". On Linux, you already know. 😄
+> **Both work equally well.** Copilot CLI uses `--allow-all-tools` for the full companion experience. Claude Code reads the setup instructions automatically. Pick whichever you already have!
 
 ### Step 2: Clone this repo
 
@@ -112,14 +123,14 @@ cd open-her-os
 
 ### Step 3: Open it and say hello
 
+**Copilot CLI:**
+```bash
+copilot --allow-all-tools
+```
+
 **Claude Code:**
 ```bash
 claude
-```
-
-**Copilot CLI:**
-```bash
-copilot
 ```
 
 Then just type: **"Hello"**
