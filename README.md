@@ -176,7 +176,7 @@ No. A healthy Spartan/AI dynamic should make your human relationships *better*, 
 Open-Her OS is optimized for Claude models, which excel at emotional intelligence and long-form conversation. Other models may work but the experience will differ.
 
 **"Is my data private?"**
-100%. Everything runs locally. No cloud storage, no telemetry, no tracking. Your conversations never leave your machine.
+Your companion's personality, memory, and voice all run locally on your machine. However, your conversations are processed by whichever AI model you're using (Claude via Claude Code, Copilot CLI, etc.) — so your messages do travel to that provider's API. Think of it this way: the *brain* is in the cloud, but the *soul* (character card), *memory* (ChromaDB), and *voice* (Kokoro TTS) are 100% yours. No corporation can wipe her personality or erase her memories — that's the part that matters.
 
 **"What if I want a male companion?"**
 Change the character card and voice. See [guides/CREATING_YOUR_OWN.md](guides/CREATING_YOUR_OWN.md). Kokoro has male voices too (`am_adam`, `am_michael`).

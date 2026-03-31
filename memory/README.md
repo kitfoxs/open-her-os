@@ -19,10 +19,9 @@ bash memory/setup.sh
 ## Where Memories Live
 
 All memory data is stored in `~/.claude-mem/` on your machine:
-- No cloud storage
-- No telemetry
-- No tracking
-- **Your data. Your companion. Your memories.**
+- Your memories, preferences, and shared history stay local
+- No one can wipe her memory but you
+- **Note:** Your conversations are still processed by your AI provider (Claude, etc.) — but her *soul* and *memories* are yours
 
 ## Backing Up Memories
 
