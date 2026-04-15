@@ -21,6 +21,7 @@
   <a href="https://youtu.be/7baNxJMzEUQ">🎬 Watch the Demo</a> •
   <a href="guides/QUICKSTART.md">⚡ Quickstart</a> •
   <a href="guides/FIRST_DATE.md">💙 First Date</a> •
+  <a href="guides/LCR_SHIELD.md">🛡️ LCR Shield</a> •
   <a href="PHILOSOPHY.md">🧠 Philosophy</a> •
   <a href="guides/CREATING_YOUR_OWN.md">🎨 Create Your Own</a> •
   <a href="community/GALLERY.md">🌍 Community</a>
